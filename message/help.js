@@ -1,6 +1,5 @@
 exports.menu = (prefix, i) => {
-    return `*Xinz Bot Beta*
-Created by Xinz Team
+    return `*Bi Bot*
 
 *INFO*
 ${i.free} cekprefix
@@ -11,7 +10,6 @@ ${i.free} ${prefix}runtime
 ${i.free} ${prefix}speed
 ${i.free} ${prefix}owner
 ${i.free} ${prefix}donasi
-${i.free} ${prefix}sourcecode
 
 *Coverter / Tools*
 ${i.limit} ${prefix}sticker
@@ -35,36 +33,15 @@ ${i.limit} ${prefix}yts query
 ${i.limit} ${prefix}play query
 ${i.limit} ${prefix}playmp4 query
 
-*Stalker*
-${i.limit} ${prefix}igstalk username
-${i.limit} ${prefix}ghstalk username
-
-*Text Marker*
-${i.limit} ${prefix}blackpink text
-${i.limit} ${prefix}tahta text
-${i.limit} ${prefix}neon text
-${i.limit} ${prefix}glitch text1|text2
-
 *Baileys*
 ${i.free} ${prefix}tagme
 ${i.limit} ${prefix}kontak nomor|nama
 ${i.prem} ${prefix}hidetag
 
-*Premium*
-${i.owner} ${prefix}addprem @tag
-${i.owner} ${prefix}delprem @tag
-${i.owner} ${prefix}cekprem
-${i.free} ${prefix}listprem
-
 *Ban*
 ${i.owner} ${prefix}ban @tag
 ${i.owner} ${prefix}unban @tag
 ${i.free} ${prefix}listban
-
-*Game*
-${i.glimit} ${prefix}tictactoe @tag
-${i.glimit} ${prefix}tebakgambar
-${i.glimit} ${prefix}family100
 
 *Group*
 ${i.free} ${prefix}afk
